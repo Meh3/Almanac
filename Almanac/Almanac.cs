@@ -8,7 +8,7 @@ public static class AlmanacResolver
     /// - I intentionally don't convert input into tables with numbers, ranges etc to do it straight on the source in efficient way.
     /// - It is straight approach by mapping each input to the output through the mapping steps end check which is lowest.
     /// 
-    /// The processes are optimisation:
+    /// The processes optimisations:
     /// - processing line by line only once iteration through the file
     /// - use only two arrays
     /// - take advantage of the fact that the input text has a certain constant structure
